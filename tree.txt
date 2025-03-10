@@ -1,0 +1,85 @@
+src
+├── _redirects
+├── app
+│   ├── app.component.html
+│   ├── app.component.ts
+│   ├── app.config.ts
+│   ├── app.routes.ts
+│   ├── core
+│   │   ├── auth
+│   │   │   ├── auth.component.html
+│   │   │   ├── auth.component.ts
+│   │   │   ├── if-authenticated.directive.ts
+│   │   │   ├── services
+│   │   │   │   ├── jwt.service.ts
+│   │   │   │   └── user.service.ts
+│   │   │   └── user.model.ts
+│   │   ├── interceptors
+│   │   │   ├── api.interceptor.ts
+│   │   │   ├── error.interceptor.ts
+│   │   │   └── token.interceptor.ts
+│   │   ├── layout
+│   │   │   ├── footer.component.html
+│   │   │   ├── footer.component.ts
+│   │   │   ├── header.component.html
+│   │   │   └── header.component.ts
+│   │   └── models
+│   │       ├── errors.model.ts
+│   │       └── loading-state.model.ts
+│   ├── features
+│   │   ├── article
+│   │   │   ├── components
+│   │   │   │   ├── article-comment.component.ts
+│   │   │   │   ├── article-list.component.ts
+│   │   │   │   ├── article-meta.component.ts
+│   │   │   │   ├── article-preview.component.ts
+│   │   │   │   └── favorite-button.component.ts
+│   │   │   ├── models
+│   │   │   │   ├── article-list-config.model.ts
+│   │   │   │   ├── article.model.ts
+│   │   │   │   └── comment.model.ts
+│   │   │   ├── pages
+│   │   │   │   ├── article
+│   │   │   │   │   ├── article.component.html
+│   │   │   │   │   └── article.component.ts
+│   │   │   │   ├── editor
+│   │   │   │   │   ├── editor.component.html
+│   │   │   │   │   └── editor.component.ts
+│   │   │   │   └── home
+│   │   │   │       ├── home.component.css
+│   │   │   │       ├── home.component.html
+│   │   │   │       └── home.component.ts
+│   │   │   └── services
+│   │   │       ├── articles.service.ts
+│   │   │       ├── comments.service.ts
+│   │   │       └── tags.service.ts
+│   │   ├── profile
+│   │   │   ├── components
+│   │   │   │   ├── follow-button.component.ts
+│   │   │   │   ├── profile-articles.component.ts
+│   │   │   │   └── profile-favorites.component.ts
+│   │   │   ├── models
+│   │   │   │   └── profile.model.ts
+│   │   │   ├── pages
+│   │   │   │   └── profile
+│   │   │   │       ├── profile.component.html
+│   │   │   │       └── profile.component.ts
+│   │   │   ├── profile.routes.ts
+│   │   │   └── services
+│   │   │       └── profile.service.ts
+│   │   └── settings
+│   │       ├── settings.component.html
+│   │       └── settings.component.ts
+│   └── shared
+│       ├── components
+│       │   ├── list-errors.component.html
+│       │   └── list-errors.component.ts
+│       └── pipes
+│           └── markdown.pipe.ts
+├── assets
+├── favicon.ico
+├── index.html
+├── main.ts
+└── styles.css
+
+28 directories, 55 files
