@@ -75,28 +75,21 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n"
         },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
+        "e2e": {
+          "builder": "playwright-ng-schematics:playwright",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
-            "tsConfig": "tsconfig.spec.json",
-            "inlineStyleLanguage": "scss",
-            "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
-            ],
-            "styles": [
-              "src/styles.scss"
-            ],
-            "scripts": []
+            "devServerTarget": "arquitex:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "arquitex:serve:production"
+            }
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
