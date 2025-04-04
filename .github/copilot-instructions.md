@@ -1,0 +1,6 @@
+- always Use angular scaffolding tools on the shell, when in agent mode (ng g command)
+- use angular version 19.x
+- use latest angular material for version 19.x
+- the angular app should be a single page application
+- use Standalone components
+- follow BEM naming convention
